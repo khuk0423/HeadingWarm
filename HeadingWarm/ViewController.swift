@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  HeadingWarm
-//
-//  Created by Minjae Lee on 2021/07/20.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
@@ -29,6 +22,7 @@ class ViewController: UIViewController {
         pageControl.currentPageIndicatorTintColor = UIColor.black
         imgView.image = UIImage(named: images[0])
     }
+    
     @IBAction func btnConditionMsg1(_ sender: UIButton) {
         let alert = UIAlertController(title: "상태 메시지 수정", message: "수정할 메시지를 입력해주세요", preferredStyle: .alert)
         alert.addTextField()
@@ -43,6 +37,7 @@ class ViewController: UIViewController {
         alert.addAction(ok)
         self.present(alert, animated: true, completion: nil)
     }
+    
     @IBAction func btnConditionMsg2(_ sender: UIButton) {
         let alert = UIAlertController(title: "가치관 수정", message: "수정할 메시지를 입력해주세요", preferredStyle: .alert)
         alert.addTextField()
