@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nig-bU-LwH">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bX0-i0-3o0">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -16,12 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JGo-wI-ptM">
-                                <rect key="frame" x="70" y="90" width="250" height="125.66666666666667"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_image.png" translatesAutoresizingMaskIntoConstraints="NO" id="JGo-wI-ptM">
+                                <rect key="frame" x="70" y="79" width="235" height="137"/>
                                 <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sR-nD-QQO">
-                                <rect key="frame" x="310" y="159" width="60" height="60"/>
+                                <rect key="frame" x="310" y="149" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="YWv-9w-YqO"/>
                                     <constraint firstAttribute="height" constant="60" id="q1P-tu-cuA"/>
@@ -33,8 +33,8 @@
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="차승현" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQd-X1-XHj">
-                                <rect key="frame" x="163.66666666666666" y="222" width="62.666666666666657" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이민재" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZQd-X1-XHj">
+                                <rect key="frame" x="163.66666666666666" y="222" width="63" height="29"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -131,7 +131,7 @@
                             <constraint firstItem="0sR-nD-QQO" firstAttribute="top" secondItem="JGo-wI-ptM" secondAttribute="top" constant="70" id="3JN-8U-47I"/>
                             <constraint firstItem="Wtx-70-GiJ" firstAttribute="centerY" secondItem="eLc-NH-Sg6" secondAttribute="centerY" id="3en-3W-p9A"/>
                             <constraint firstItem="DKj-eb-cCa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="355" id="5cY-fj-rVl"/>
-                            <constraint firstItem="JGo-wI-ptM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="8oe-Yd-SQJ"/>
+                            <constraint firstItem="JGo-wI-ptM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="8oe-Yd-SQJ"/>
                             <constraint firstItem="RTX-dq-52f" firstAttribute="top" secondItem="muj-jT-iaW" secondAttribute="bottom" constant="32" id="AI5-zo-FZX"/>
                             <constraint firstItem="PSY-0m-lMi" firstAttribute="centerX" secondItem="DKj-eb-cCa" secondAttribute="centerX" id="CSY-6C-0Dx"/>
                             <constraint firstItem="eLc-NH-Sg6" firstAttribute="bottom" secondItem="Pkr-lY-N0U" secondAttribute="bottom" constant="40" id="I24-5U-xmW"/>
@@ -147,7 +147,7 @@
                             <constraint firstItem="EeW-aB-qU3" firstAttribute="centerY" secondItem="Pkr-lY-N0U" secondAttribute="centerY" id="Szz-p0-2lO"/>
                             <constraint firstItem="Pkr-lY-N0U" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="TcB-VB-3CI"/>
                             <constraint firstItem="te5-dj-jvX" firstAttribute="bottom" secondItem="nX2-Ba-N0P" secondAttribute="bottom" id="VBY-Rv-pUV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JGo-wI-ptM" secondAttribute="trailing" constant="70" id="W14-HX-t4y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JGo-wI-ptM" secondAttribute="trailing" constant="85" id="W14-HX-t4y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nX2-Ba-N0P" secondAttribute="trailing" id="Wfv-v8-1bx"/>
                             <constraint firstItem="JGo-wI-ptM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="XS8-pk-eyO"/>
                             <constraint firstItem="DKj-eb-cCa" firstAttribute="centerX" secondItem="nX2-Ba-N0P" secondAttribute="centerX" id="YvJ-5A-bIW"/>
@@ -164,7 +164,7 @@
                             <constraint firstItem="Pkr-lY-N0U" firstAttribute="bottom" secondItem="ZQd-X1-XHj" secondAttribute="bottom" constant="40" id="zgK-7P-eWE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="나의 성장" image="homekit" catalog="system" id="JVV-Vk-Up9"/>
+                    <tabBarItem key="tabBarItem" title="나의 성장" image="person.crop.circle" catalog="system" id="JVV-Vk-Up9"/>
                     <connections>
                         <outlet property="conditionMsg" destination="Pkr-lY-N0U" id="vFb-bY-22P"/>
                         <outlet property="conditionMsg2" destination="eLc-NH-Sg6" id="QLI-Fq-Bj4"/>
@@ -415,18 +415,207 @@
         <!--커뮤니티-->
         <scene sceneID="DAx-jS-eJp">
             <objects>
-                <viewController id="bX0-i0-3o0" sceneMemberID="viewController">
+                <viewController id="bX0-i0-3o0" customClass="ComunityViewController" customModule="HeadingWarm" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="668-Ac-Be6">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qAR-OS-PWB">
+                                <rect key="frame" x="0.0" y="35" width="390" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LqS-8W-Mr5">
+                                <rect key="frame" x="0.0" y="87" width="390" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="오늘의 이슈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2H-pl-y9I">
+                                <rect key="frame" x="9" y="277" width="109" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                <color key="textColor" red="0.43022674322128296" green="0.044148862361907959" blue="0.92105364799499512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="여러가지 소식을 접해보세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T0a-Y8-BYM">
+                                <rect key="frame" x="9" y="307" width="181" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.43022674322128296" green="0.044148862361907959" blue="0.92105364799499512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="OhP-xp-csh">
+                                <rect key="frame" x="135" y="272" width="121" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="currentPageIndicatorTintColor" red="0.43022674322128296" green="0.044148862361907959" blue="0.92105364799499512" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="pageChange:" destination="bX0-i0-3o0" eventType="valueChanged" id="aBF-aB-Ze7"/>
+                                </connections>
+                            </pageControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이번주 커뮤니티" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G4D-s4-rGn">
+                                <rect key="frame" x="25" y="381" width="114" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZhB-lH-jLq">
+                                <rect key="frame" x="306" y="376" width="45" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="더보기">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Wgw-hp-Nz0" kind="show" id="jAa-uW-6mw"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="커뮤니티 리더 이야기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Xs-pK-Phd">
+                                <rect key="frame" x="25" y="576" width="149" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leaders.png" translatesAutoresizingMaskIntoConstraints="NO" id="hW4-mn-J4I">
+                                <rect key="frame" x="0.0" y="611" width="390" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlw-pu-7pP">
+                                <rect key="frame" x="306" y="570" width="45" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="더보기">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NYw-CC-vpF" kind="show" id="fSG-Nz-Bcx"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Community.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fdi-GO-Xc6">
+                                <rect key="frame" x="0.0" y="417" width="390" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NX2-Bd-f5r">
+                                <rect key="frame" x="370" y="666" width="20" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrowtriangle.forward.circle.fill" catalog="system">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOk-4v-3wv">
+                                <rect key="frame" x="0.0" y="665" width="20" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="arrowtriangle.left.circle.fill" catalog="system"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Lvq-u6-6CQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="커뮤니티" image="person.3" catalog="system" id="0n2-lO-VUd"/>
+                    <connections>
+                        <outlet property="imgViewCommunity" destination="fdi-GO-Xc6" id="laG-bZ-aDo"/>
+                        <outlet property="imgViewCommunityLeader" destination="hW4-mn-J4I" id="1Xq-tD-KLw"/>
+                        <outlet property="imgViewIssue" destination="LqS-8W-Mr5" id="quv-ze-9P0"/>
+                        <outlet property="pageController" destination="OhP-xp-csh" id="BoS-sf-kky"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dRj-MQ-R2m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="99" y="849"/>
+            <point key="canvasLocation" x="-780" y="937"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EYq-IV-ZZW">
+            <objects>
+                <viewController id="Wgw-hp-Nz0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="weL-Dw-hRp">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이번주 커뮤니티" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cll-9r-22u">
+                                <rect key="frame" x="120" y="49" width="151" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="community_detail.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MmZ-zn-mXz">
+                                <rect key="frame" x="0.0" y="101" width="390" height="701"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Loq-fc-RaZ">
+                                <rect key="frame" x="25" y="136" width="341" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="CNQ-fI-ksh" kind="show" id="hJ8-WC-vE7"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ILd-Sz-cgs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IcE-lp-GsE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CjO-Sv-vPQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1372.3076923076922" y="1655.6872037914691"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="gRP-qP-8aP">
+            <objects>
+                <viewController id="CNQ-fI-ksh" customClass="DetailViewController" customModule="HeadingWarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uhi-WY-EEL">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uZu-d0-VbN">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eiP-wH-vl0">
+                                <rect key="frame" x="16" y="272" width="349" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="커리큘럼"/>
+                                    <segment title="문제상황"/>
+                                    <segment title="리더"/>
+                                    <segment title="구성원"/>
+                                    <segment title="멘토"/>
+                                    <segment title="규칙"/>
+                                </segments>
+                                <connections>
+                                    <action selector="chooseMenu:" destination="CNQ-fI-ksh" eventType="valueChanged" id="33G-MX-afx"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-HN-Cc6">
+                                <rect key="frame" x="0.0" y="311" width="390" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="블로그 마케팅을 통해 으쌰 카페 고객 유입시키기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oe4-kJ-WqI">
+                                <rect key="frame" x="39" y="244" width="302" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YCf-YJ-9hu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xre-yu-Fm4"/>
+                    <connections>
+                        <outlet property="imgView" destination="1jy-HN-Cc6" id="UIU-Ce-MGH"/>
+                        <outlet property="segControl" destination="eiP-wH-vl0" id="xy5-53-fzT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f17-oF-uql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1372.3076923076922" y="2403.5545023696682"/>
         </scene>
         <!--달란트-->
         <scene sceneID="iHZ-UG-cqb">
@@ -442,7 +631,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9V-Uk-3KS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="896" y="848"/>
+            <point key="canvasLocation" x="903" y="849"/>
         </scene>
         <!--Writing Detail View Controller-->
         <scene sceneID="gsf-XY-ZOz">
@@ -696,20 +885,56 @@
             </objects>
             <point key="canvasLocation" x="2317" y="1504"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="7Fg-MN-1tf">
+            <objects>
+                <viewController id="NYw-CC-vpF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MmB-qP-3cv">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="커뮤니티 리더 이야기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duO-e1-L9Z">
+                                <rect key="frame" x="96" y="32" width="198" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="leaders_detail.png" translatesAutoresizingMaskIntoConstraints="NO" id="q9t-K7-j6V">
+                                <rect key="frame" x="0.0" y="79" width="390" height="721"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5SM-2Z-n4R"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="TDO-HJ-9zg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TN-98-jXE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-235" y="1636"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="01.jpg" width="654" height="400"/>
         <image name="2_2.png" width="344" height="477"/>
         <image name="2_3.png" width="337" height="479"/>
         <image name="2_4.png" width="349" height="486"/>
+        <image name="Community.jpg" width="747" height="277"/>
+        <image name="arrowtriangle.forward.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="arrowtriangle.left.circle.fill" catalog="system" width="128" height="121"/>
         <image name="checkmark.square" catalog="system" width="128" height="114"/>
         <image name="checkmark.square.fill" catalog="system" width="128" height="114"/>
+        <image name="community_detail.jpg" width="750" height="1292"/>
         <image name="dollarsign.circle" catalog="system" width="128" height="121"/>
         <image name="gearshape.fill" catalog="system" width="128" height="121"/>
-        <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="leaders.png" width="1031" height="281.5"/>
+        <image name="leaders_detail.png" width="418" height="750"/>
         <image name="line" width="692" height="17.666666030883789"/>
         <image name="logo" width="166.33332824707031" height="166.66667175292969"/>
         <image name="person.3" catalog="system" width="128" height="62"/>
-        <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="person.crop.circle" catalog="system" width="128" height="121"/>
+        <image name="profile_image.png" width="311" height="200.5"/>
         <image name="sample.png" width="409" height="519"/>
         <image name="signin_background.jpg" width="345" height="539"/>
         <systemColor name="labelColor">
