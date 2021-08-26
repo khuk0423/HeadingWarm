@@ -40,6 +40,7 @@
 		53D42E0626D223B500CF5D0B /* WritingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D42E0526D223B500CF5D0B /* WritingDetailViewController.swift */; };
 		53D42E0826D229D100CF5D0B /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 53D42E0726D229D100CF5D0B /* sample.png */; };
 		BD59B1B2AC55FEE03A85AEDA /* Pods_HeadingWarmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077ABCE1035128D7AA754561 /* Pods_HeadingWarmTests.framework */; };
+		FB69B64126D73EED00995E66 /* signin_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB69B64026D73EED00995E66 /* signin_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,7 @@
 		80006E216E42041DBFDB1379 /* Pods-HeadingWarm-HeadingWarmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadingWarm-HeadingWarmUITests.release.xcconfig"; path = "Target Support Files/Pods-HeadingWarm-HeadingWarmUITests/Pods-HeadingWarm-HeadingWarmUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A6F6B73DCFF054B983DA79C9 /* Pods_HeadingWarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HeadingWarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63F6A655C1FCFEFFC91CC14 /* Pods-HeadingWarm-HeadingWarmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HeadingWarm-HeadingWarmUITests.debug.xcconfig"; path = "Target Support Files/Pods-HeadingWarm-HeadingWarmUITests/Pods-HeadingWarm-HeadingWarmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB69B64026D73EED00995E66 /* signin_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = signin_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 				53D42E0126D219C000CF5D0B /* 2.png */,
 				53354BA926D54FAE00FF19EA /* 2_2.png */,
 				53354BA826D54FAE00FF19EA /* 2_3.png */,
+				FB69B64026D73EED00995E66 /* signin_background.jpg */,
 				53354BA726D54FAE00FF19EA /* 2_4.png */,
 				53D42DEE26D2171D00CF5D0B /* 1,2,3p_화살표.png */,
 				53D42DEF26D2171D00CF5D0B /* 1p_커뮤니티.png */,
@@ -369,6 +372,7 @@
 				53D42DFB26D2171D00CF5D0B /* 1,2,3p_화살표.png in Resources */,
 				5388B4B526A5CC9000823B4B /* Main.storyboard in Resources */,
 				53D42DFC26D2171D00CF5D0B /* 1p_커뮤니티.png in Resources */,
+				FB69B64126D73EED00995E66 /* signin_background.jpg in Resources */,
 				53CEE0A526D6A652000AFF45 /* GoogleService-Info.plist in Resources */,
 				53D42E0026D2171D00CF5D0B /* 2p_파이썬.png in Resources */,
 				53D42DF826D2171D00CF5D0B /* 1p_홈.png in Resources */,
