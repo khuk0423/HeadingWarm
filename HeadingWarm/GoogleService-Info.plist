@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>393783676292-ihe0iavs9rvpskn629vkhmb53hgrsgfs.apps.googleusercontent.com</string>
+	<string>316516322175-l7bitp2dblpufgmjqehngueenp3k0gt8.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.393783676292-ihe0iavs9rvpskn629vkhmb53hgrsgfs</string>
+	<string>com.googleusercontent.apps.316516322175-l7bitp2dblpufgmjqehngueenp3k0gt8</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCYi5okEKCJeb-06kofzOwX_DIpNQ8QjHM</string>
+	<string>AIzaSyACSUD0CvANeGrjyM-AOod3lswONkpAzgE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>393783676292</string>
+	<string>316516322175</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.minjae.HeadingWarm</string>
+	<string>com.company.headingwarm</string>
 	<key>PROJECT_ID</key>
-	<string>headwarm</string>
+	<string>usha-eefab</string>
 	<key>STORAGE_BUCKET</key>
-	<string>headwarm.appspot.com</string>
+	<string>usha-eefab.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:393783676292:ios:74b6f2750691dbcef7e1d1</string>
+	<string>1:316516322175:ios:9993f386144e8ae849a84a</string>
 </dict>
 </plist>
