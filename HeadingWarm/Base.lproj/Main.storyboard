@@ -361,6 +361,14 @@
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vSg-bj-7zt">
+                                <rect key="frame" x="175" y="531" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="구글"/>
+                                <connections>
+                                    <action selector="googleSignIn:" destination="Nig-bU-LwH" eventType="touchUpInside" id="ieX-Ld-HZk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gmm-wQ-15a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -383,6 +391,7 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImg" destination="KVN-cJ-SFY" id="MLq-Qg-9eI"/>
+                        <outlet property="googleLogin" destination="vSg-bj-7zt" id="gas-to-urH"/>
                         <outlet property="textFieldID" destination="Ytj-Q3-XOw" id="XV1-VE-x1h"/>
                         <outlet property="textFieldPassword" destination="BoP-X8-l5t" id="FtT-hP-MGt"/>
                     </connections>

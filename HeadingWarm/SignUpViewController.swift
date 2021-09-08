@@ -8,11 +8,13 @@
 import UIKit
 import Firebase
 import FirebaseAuth
+import GoogleSignIn
 
 class SignUpViewController: UIViewController {
     @IBOutlet weak var textFieldID: UITextField!
     @IBOutlet weak var textFieldPassword: UITextField!
     @IBOutlet var backgroundImg: UIImageView!
+    @IBOutlet weak var googleLogin: GIDSignInButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +76,41 @@ class SignUpViewController: UIViewController {
           }
     }
     
+    @IBAction func googleSignIn(_ sender: UIButton) {
+        guard let clientID = FirebaseApp.app()?.options.clientID else { return }
+        // Create Google Sign In configuration object.
+        let config = GIDConfiguration(clientID: clientID)
+        // Start the sign in flow!
+        GIDSignIn.sharedInstance.signIn(with: config, presenting: self) { [unowned self] user, error in
+          if let error = error {
+            // ...
+            return
+          }
+          guard
+            let authentication = user?.authentication,
+            let idToken = authentication.idToken
+          else {
+            return
+          }
+          let credential = GoogleAuthProvider.credential(withIDToken: idToken,
+                                                         accessToken: authentication.accessToken)
+            Auth.auth().signIn(with: credential) { authResult, error in
+                if let error = error {
+                    print("Firebase sign in error: \(error)")
+                    return
+                } else {
+                    print("User is signed with Firebase&Google!")
+                    self.changeView("Main", "ViewController")
+                }
+            }
+        }
+    }
+    
+
+    
+
+    
+    
     @IBAction func didTapSaveId(_ sender: UIButton) {
         sender.isSelected.toggle()
     }
@@ -104,4 +141,7 @@ class SignUpViewController: UIViewController {
                               snapshot.removeFromSuperview()
                           })
     }
+    
 }
+
+
